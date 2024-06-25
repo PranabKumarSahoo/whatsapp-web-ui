@@ -1,0 +1,65 @@
+.chat-list-container {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--secondary-dark-bg-color);
+}
+
+.chat-list-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.chat-list-top-right {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-list-top-right a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.chat-list-top-right a:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.chat-list-search-bar {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.chat-list-buttons {
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.chat-list-buttons a {
+    background-color: var(--secondary-light-bg-color);
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.chat-list-buttons ul li a:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.chat-list-box {
+    width: 100%;
+    transition: 0.1s;
+    overflow-y: auto;
+}
